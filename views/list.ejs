@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+	<div class="box" id="heading">
+	
+	<h2> <%=topic%></h2>
+</div>
+
+	<div class="box">
+
+		<% for (var i =0; i <itemname.length;  i++ ) { %>
+<form action="/delete" method="post">
+		<div class="item">
+			<input type="checkbox" name="checkbox" onChange="this.form.submit()" value="<%=itemname[i]._id%>">
+		<p><%=  itemname[i].name %></p>
+	</div>
+	<input type="hidden" name="listName" value=<%=topic%>></finput>
+</form>
+		<% } %>
+
+	
+	</div>
+<form action="/" method="post">
+	<input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+	<button type="Submit" name="list" value=<%=topic%>> + </button>
+</body>
+
+<footer>
+	Created by Shubhrima🦋
+</footer>
+</html>
