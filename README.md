@@ -1,4 +1,11 @@
-A to do list that allows to create multiple lists, and add, and tick-off items from the list.
+ <h1>To do List</h1>
+
+A simple web app that allows people to make multiple to do lists. One can add, and remove items from the lists.
 
 
-https://enigmatic-wildwood-62898.herokuapp.com/
+<strong>Technologies/Frameworks</strong>
+Bootstap
+Node.js
+MongoDB Atlas
+
+The project will run on https://enigmatic-wildwood-62898.herokuapp.com/
