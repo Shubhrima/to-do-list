@@ -7,5 +7,6 @@ A simple web app that allows people to make multiple to do lists. One can add, a
  <li>Bootstrap</li>
  <li>Node.js</li>
  <li>MongoDB Atlas</li>
+ </ul>
 
 The project will run on https://enigmatic-wildwood-62898.herokuapp.com/
