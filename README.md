@@ -1,4 +1,4 @@
- <h1>To do List</h1>
+ <h1>Bucket List</h1>
 
 A simple web app that allows people to make multiple to do lists. One can add, and remove items from the lists.
 
